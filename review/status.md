@@ -51,6 +51,7 @@
 
 - Prompt adjustment made after contaminated early agent outputs: primary-review prompts are now neutral, context-free, and explicitly forbid file editing or implementation commentary.
 - Neutral prompt policy has been formalized in [prompt_protocol.md](E:\Personal\Random\Random\Delpezzo\review\prompt_protocol.md), including dynamic prompt-adjustment rules.
+- Post-review targeted check on `Proposition 12.55` confirms an additional independent flaw not previously logged packet-by-packet: in the cuspidal plane-cubic case, the proof's claim `f_* O_E = O_C` is false, so the deduction `p_a(E) = 1` fails. See [targeted_check_12_55.md](E:\Personal\Random\Random\Delpezzo\review\targeted_check_12_55.md).
 - `G0` remains open even after `P01` merge: `Section 2` is background-only and does not supply theorem-level citation precision by itself.
 - `P02` consensus finding: Proposition `3.1` relies on uncited fixed-locus, quotient-singularity, and intersection-count steps.
 - `P03` consensus finding: Proposition `3.2` leaves the self-intersection, discrepancy, and fibre-intersection computations asserted rather than shown; the identification of `(a, m) = (1, 3)` with the known `7`-point case is asserted rather than derived; and Remark `3.3` is largely unsupported.
